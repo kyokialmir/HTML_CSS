@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Калькулятор чисел</h1>
+  <form id="calculatorForm">
+    <input type="number" id="num1" placeholder="Число 1" required>
+    <select id="operation">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input type="number" id="num2" placeholder="Число 2" required>
+    <button type="submit">Посчитать</button>
+  </form>
+  <div id="result"></div>
+</body>
+</html>
